@@ -1,6 +1,14 @@
 import WorkIm from '../assets/projects/workImg.jpeg'
 import RealEst from '../assets/projects/realestate.jpg'
 
+import Cryptologo from '../assets/cryptologo.png';
+import Messagelogo from '../assets/messagelogo.png';
+import Twitterlogo from '../assets/twitterlogo.png';
+
+import Price from '../assets/price.png'
+import Tweet from '../assets/tweet.png'
+import Talk from '../assets/talk.png'
+
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
@@ -34,12 +42,12 @@ export const logos = [
     },
     {
         logo:Swiftlogo,
-        name:"Swift"
+        name:"Swift/SwiftUI"
     },
-    {
-        logo:Swifty,
-        name:"SwiftUI"
-    },
+    // {
+    //     logo:Swifty,
+    //     name:"SwiftUI"
+    // },
     {
         logo:FireBase,
         name:"Firebase"
@@ -54,24 +62,24 @@ export const logos = [
 export const data=[
     {
         id:1,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
+        name:"Crypto Social Media",
+        image:Price,
+        github:"https://github.com/daichimorihara/PublicCoin",
+        live:"https://youtu.be/Qfrb2Hek7G8",
     },
     {
         id:2,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
+        name:"Twitter iOS App",
+        image:Tweet,
+        github:"https://github.com/daichimorihara/Twitter",
+        live:"https://youtu.be/QxY_4am_2u0",
     },
     {
         id:3,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
+        name:"Messaging iOS App",
+        image:Talk,
+        github:"https://github.com/daichimorihara/ChatApp",
+        live:"https://youtu.be/OjN_Pp7GjMg",
     },
     {
         id:4,

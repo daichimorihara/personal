@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaYoutube } from 'react-icons/fa';
 
 
 const Social = () => {
@@ -25,6 +25,11 @@ const Social = () => {
                 <li className='inline-block hover:text-blue-600'>
                 <a href='https://github.com/daichimorihara' target="_blank">
                     <FaGithub size={35} />
+                </a>
+                </li>
+                <li className='inline-block hover:text-blue-600'>
+                <a href='https://www.youtube.com/@DaichiMorihara/featured' target="_blank">
+                    <FaYoutube size={35} />
                 </a>
                 </li>
             </ul>

@@ -29,7 +29,7 @@ const Skills = () => {
               <p className='py-4'>These are the technologies I've worked with</p>
           </div>
 
-          <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 '>
+          <div className='w-full grid grid-cols-3 sm:grid-cols-4 gap-4 text-center py-8 '>
 
             {project.map((item) => (
                 <Tech logo={item.logo} title={item.name} />
