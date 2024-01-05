@@ -2,6 +2,9 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import Social from './Social';
 import Taylor from '../assets/taylor.jpeg';
+import Daichipic from '../assets/daichipic.png';
+import Newpic from '../assets/newpic.png';
+
 
 const Home = () => {
   return (
@@ -10,7 +13,7 @@ const Home = () => {
       <div className='max-w-[1000px] mx-auto px-8 flex justify-center h-full'>
         <div className='mx-auto my-auto flex-col max-w-full md:hidden'>
           <div className='pb-10'>
-            <img className='max-w-[300px] mx-auto rounded-full flex border-4 border-black' src={Taylor} alt="My pic" />
+            <img className='max-w-[300px] mx-auto rounded-full flex border-4 border-black' src={Newpic} alt="My pic" />
           </div>
           
           <Social />
@@ -22,7 +25,7 @@ const Home = () => {
 
         <div className='hidden md:flex my-auto pl-5 max-w-[400px]'>
 
-          <img className='max-w-full  mx-auto rounded-full flex border-4 border-black' src={Taylor} alt="My pic" />
+          <img className='max-w-full  mx-auto rounded-full flex border-4 border-black' src={Newpic} alt="My pic" />
         </div>
       </div>
       

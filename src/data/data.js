@@ -81,13 +81,13 @@ export const data=[
         github:"https://github.com/daichimorihara/ChatApp",
         live:"https://youtu.be/OjN_Pp7GjMg",
     },
-    {
-        id:4,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
-    },
+    // {
+    //     id:4,
+    //     name:"React JS Application",
+    //     image:RealEst,
+    //     github:"",
+    //     live:"",
+    // },
 
 
 ]
